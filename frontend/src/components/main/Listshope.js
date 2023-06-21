@@ -64,7 +64,7 @@ const Listshope = () => {
                 </div>
                 <div className="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
                  
-                  <h6 className="text-success">Free shipping</h6>
+                  <h6 className="text-success">Show</h6>
                   <div className="d-flex flex-column mt-4">
                     <NavLink to={"/main/browseflower/"+shop._id} className="btn btn-primary btn-sm" >
                       Details

@@ -69,7 +69,7 @@ const Signup = () => {
       style={{
         minHeight: '100vh',
         backgroundImage:
-          'url("https://images.pexels.com/photos/85773/pexels-photo-85773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
+          'url("https://wallpapercave.com/wp/wp2565717.jpg")',
       }}
     >
       <div className="mask d-flex align-items-center h-100 gradient-custom-3">

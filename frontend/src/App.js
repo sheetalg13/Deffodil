@@ -12,12 +12,22 @@ import Manageflowers from './components/admin/Manageflowers';
 import Manageusers from './components/admin/Manageusers';
 import AdminAuth from './auth/AdminAuth';
 import Listshope from './components/main/Listshope';
+
 import Listflower from './components/main/Listflower';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
+    
     <div className="App">
+      <div>
+        <Header/>
+        {/* <Home/> */}
+        <Footer/>
+      </div>
       <BrowserRouter>
 
 
@@ -26,9 +36,10 @@ function App() {
           <Route path="main" element={<Main />}>
             <Route path='home' element={<Home />} />
             <Route path='login' element={<Login />} />
-            <Route path='browseshop' element={<Listshope />} />
+            <Route path='browseshop' element={<Listshope/>} />
             <Route path='browseflower/:id' element={<Listflower />} />
             <Route path='signup' element={<Signup />} />
+
           </Route>
           <Route path='admin' element={ <AdminAuth> <Admin /> </AdminAuth> } >
             <Route path='manageshop' element={<Manageshope />} />

@@ -5,6 +5,10 @@ import { Link, NavLink } from 'react-router-dom'
 const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="logo">
+                        <img src=
+"https://4.bp.blogspot.com/-ZMEdYQ6Plx4/Vt0227Evl2I/AAAAAAAAA-8/Onk1YdR7rMY/s1600/Beautiful%2BFlowers%2BWallpaper.jpg" />
+                    </div>
 			<div className="container-fluid">
 				<a className="navbar-brand" href="#">
 					Deffodil
