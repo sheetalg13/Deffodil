@@ -17,6 +17,8 @@ import Listflower from './components/main/Listflower';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import User from './components/user';
+import Checkout from './components/user/checkout';
 
 
 function App() {
@@ -39,6 +41,10 @@ function App() {
             <Route path='browseshop' element={<Listshope/>} />
             <Route path='browseflower/:id' element={<Listflower />} />
             <Route path='signup' element={<Signup />} />
+
+          </Route>
+          <Route path="user" element={<User />}>
+            <Route path='checkout/:id' element={<Checkout />} />
 
           </Route>
           <Route path='admin' element={ <AdminAuth> <Admin /> </AdminAuth> } >

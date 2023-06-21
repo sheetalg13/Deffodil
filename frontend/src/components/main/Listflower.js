@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import app_config from '../../config';
 
 const Listflower = () => {
@@ -52,6 +52,9 @@ const Listflower = () => {
               />
             </div>
           </a>
+        </div>
+        <div>
+          <Link className='btn btn-primary' to={'/user/checkout/'+id} >Buy Now</Link>
         </div>
       </div>
 
